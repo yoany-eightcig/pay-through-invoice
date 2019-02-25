@@ -1,0 +1,209 @@
+
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [execute] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/api/controller/base/ApiOperationBase.php : 114) - Request Serialization Begin
+ Sat, 19 Jan 2019 00:55:45 +0000 DEBUG : [execute] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/api/controller/base/ApiOperationBase.php : 115) - net\authorize\api\contract\v1\CreateTransactionRequest Object
+(
+    [transactionRequest:net\authorize\api\contract\v1\CreateTransactionRequest:private] => net\authorize\api\contract\v1\TransactionRequestType Object
+        (
+            [transactionType:net\authorize\api\contract\v1\TransactionRequestType:private] => authCaptureTransaction
+            [amount:net\authorize\api\contract\v1\TransactionRequestType:private] => 0.06
+            [currencyCode:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [payment:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\PaymentType Object
+                (
+                    [creditCard:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [bankAccount:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [trackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [encryptedTrackData:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [payPal:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [opaqueData:net\authorize\api\contract\v1\PaymentType:private] => net\authorize\api\contract\v1\OpaqueDataType Object
+                        (
+                            [dataDescriptor:net\authorize\api\contract\v1\OpaqueDataType:private] => COMMON.ACCEPT.INAPP.PAYMENT
+                            [dataValue:net\authorize\api\contract\v1\OpaqueDataType:private] => eyJjb2RlIjoiNTBfMl8wNjAwMDUzMkU4MTAwMzVDNEIwQzNBQUNCMjUwRTFBNTEzNzk1OUVGRUMxRDYxMjFFRTgzOUM4NjE2MkE0N0NEREY3MjIyQ0JEMEFFREU3NkYyQzBDNjM4RkNEMjkxRUU4RDQyRThFIiwidG9rZW4iOiI5NTQ3ODU5MzQ0MTMwOTY4MjA0ODAyIiwidiI6IjEuMSJ9
+                            [dataKey:net\authorize\api\contract\v1\OpaqueDataType:private] => 
+                            [expirationTimeStamp:net\authorize\api\contract\v1\OpaqueDataType:private] => 
+                        )
+
+                    [emv:net\authorize\api\contract\v1\PaymentType:private] => 
+                    [dataSource:net\authorize\api\contract\v1\PaymentType:private] => 
+                )
+
+            [profile:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [solution:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [callId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [terminalNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [authCode:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [refTransId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [splitTenderId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [order:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\OrderType Object
+                (
+                    [invoiceNumber:net\authorize\api\contract\v1\OrderType:private] => 287616
+                    [description:net\authorize\api\contract\v1\OrderType:private] => Mojo Disposable Pod Vape Device
+                    [discountAmount:net\authorize\api\contract\v1\OrderType:private] => 0.0000
+                    [taxIsAfterDiscount:net\authorize\api\contract\v1\OrderType:private] => 
+                    [totalTaxTypeCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [merchantVATRegistrationNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [vatInvoiceReferenceNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaserCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [summaryCommodityCode:net\authorize\api\contract\v1\OrderType:private] => 
+                    [purchaseOrderDateUTC:net\authorize\api\contract\v1\OrderType:private] => 
+                    [supplierOrderReference:net\authorize\api\contract\v1\OrderType:private] => 
+                    [authorizedContactName:net\authorize\api\contract\v1\OrderType:private] => 
+                    [cardAcceptorRefNumber:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA1:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA2:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA3:net\authorize\api\contract\v1\OrderType:private] => 
+                    [amexDataTAA4:net\authorize\api\contract\v1\OrderType:private] => 
+                )
+
+            [lineItems:net\authorize\api\contract\v1\TransactionRequestType:private] => Array
+                (
+                    [0] => net\authorize\api\contract\v1\LineItemType Object
+                        (
+                            [itemId:net\authorize\api\contract\v1\LineItemType:private] => 561741
+                            [name:net\authorize\api\contract\v1\LineItemType:private] => Mojo Disposable Pod Vape Device
+                            [description:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [quantity:net\authorize\api\contract\v1\LineItemType:private] => 1
+                            [unitPrice:net\authorize\api\contract\v1\LineItemType:private] => 3.22
+                            [taxable:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [unitOfMeasure:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [typeOfSupply:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [taxRate:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [taxAmount:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [nationalTax:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [localTax:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [vatRate:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [alternateTaxId:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [alternateTaxType:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [alternateTaxTypeApplied:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [alternateTaxRate:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [alternateTaxAmount:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [totalAmount:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [commodityCode:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [productCode:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [productSKU:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [discountRate:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [discountAmount:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [taxIncludedInTotal:net\authorize\api\contract\v1\LineItemType:private] => 
+                            [taxIsAfterDiscount:net\authorize\api\contract\v1\LineItemType:private] => 
+                        )
+
+                )
+
+            [tax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [duty:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipping:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [taxExempt:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [poNumber:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customer:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerDataType Object
+                (
+                    [type:net\authorize\api\contract\v1\CustomerDataType:private] => individual
+                    [id:net\authorize\api\contract\v1\CustomerDataType:private] => 2210
+                    [email:net\authorize\api\contract\v1\CustomerDataType:private] => albert@eightcig.com
+                    [driversLicense:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                    [taxId:net\authorize\api\contract\v1\CustomerDataType:private] => 
+                )
+
+            [billTo:net\authorize\api\contract\v1\TransactionRequestType:private] => net\authorize\api\contract\v1\CustomerAddressType Object
+                (
+                    [phoneNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [faxNumber:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [email:net\authorize\api\contract\v1\CustomerAddressType:private] => 
+                    [firstName:net\authorize\api\contract\v1\NameAndAddressType:private] => Albert
+                    [lastName:net\authorize\api\contract\v1\NameAndAddressType:private] => Sta Cruz
+                    [company:net\authorize\api\contract\v1\NameAndAddressType:private] => 
+                    [address:net\authorize\api\contract\v1\NameAndAddressType:private] => 8956 medford hills court, 
+                    [city:net\authorize\api\contract\v1\NameAndAddressType:private] => Las Vegas
+                    [state:net\authorize\api\contract\v1\NameAndAddressType:private] => Nevada
+                    [zip:net\authorize\api\contract\v1\NameAndAddressType:private] => 89139
+                    [country:net\authorize\api\contract\v1\NameAndAddressType:private] => United States
+                )
+
+            [shipTo:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [customerIP:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [cardholderAuthentication:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [retail:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [employeeId:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [transactionSettings:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [userFields:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [surcharge:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [merchantDescriptor:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subMerchant:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [tip:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [processingOptions:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [subsequentAuthInformation:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [otherTax:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+            [shipFrom:net\authorize\api\contract\v1\TransactionRequestType:private] => 
+        )
+
+    [merchantAuthentication:net\authorize\api\contract\v1\ANetApiRequestType:private] => net\authorize\api\contract\v1\MerchantAuthenticationType Object
+        (
+            [name:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 7Zd6wz9HaZu4
+            [transactionKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => xxxx
+            [sessionToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [password:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [impersonationAuthentication:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [fingerPrint:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [clientKey:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [accessToken:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+            [mobileDeviceId:net\authorize\api\contract\v1\MerchantAuthenticationType:private] => 
+        )
+
+    [clientId:net\authorize\api\contract\v1\ANetApiRequestType:private] => sdk-php-1.9.9
+    [refId:net\authorize\api\contract\v1\ANetApiRequestType:private] => ref1547859345
+)
+
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [execute] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/api/controller/base/ApiOperationBase.php : 118) - Request  Serialization End
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [_sendRequest] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/util/HttpClient.php : 75) -  Url: https://api2.authorize.net/xml/v1/request.api
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [_sendRequest] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/util/HttpClient.php : 77) - Request to AnetApi: 
+<?xml version="1.0" encoding="UTF-8"?>
+<createTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name><![CDATA[7Zd6wz9HaZu4]]></name>
+    <transactionKey>xxxx</transactionKey>
+  </merchantAuthentication>
+  <clientId><![CDATA[sdk-php-1.9.9]]></clientId>
+  <refId><![CDATA[ref1547859345]]></refId>
+  <transactionRequest>
+    <transactionType><![CDATA[authCaptureTransaction]]></transactionType>
+    <amount>0.06</amount>
+    <payment>
+      <opaqueData>
+        <dataDescriptor><![CDATA[COMMON.ACCEPT.INAPP.PAYMENT]]></dataDescriptor>
+        <dataValue><![CDATA[eyJjb2RlIjoiNTBfMl8wNjAwMDUzMkU4MTAwMzVDNEIwQzNBQUNCMjUwRTFBNTEzNzk1OUVGRUMxRDYxMjFFRTgzOUM4NjE2MkE0N0NEREY3MjIyQ0JEMEFFREU3NkYyQzBDNjM4RkNEMjkxRUU4RDQyRThFIiwidG9rZW4iOiI5NTQ3ODU5MzQ0MTMwOTY4MjA0ODAyIiwidiI6IjEuMSJ9]]></dataValue>
+      </opaqueData>
+    </payment>
+    <order>
+      <invoiceNumber><![CDATA[287616]]></invoiceNumber>
+      <description><![CDATA[Mojo Disposable Pod Vape Device]]></description>
+      <discountAmount>0.0000</discountAmount>
+    </order>
+    <lineItems>
+      <lineItem>
+        <itemId><![CDATA[561741]]></itemId>
+        <name><![CDATA[Mojo Disposable Pod Vape Device]]></name>
+        <quantity>1</quantity>
+        <unitPrice>3.22</unitPrice>
+      </lineItem>
+    </lineItems>
+    <customer>
+      <type><![CDATA[individual]]></type>
+      <id><![CDATA[2210]]></id>
+      <email><![CDATA[albert@eightcig.com]]></email>
+    </customer>
+    <billTo>
+      <firstName><![CDATA[Albert]]></firstName>
+      <lastName><![CDATA[Sta Cruz]]></lastName>
+      <address><![CDATA[8956 medford hills court, ]]></address>
+      <city><![CDATA[Las Vegas]]></city>
+      <state><![CDATA[Nevada]]></state>
+      <zip><![CDATA[89139]]></zip>
+      <country><![CDATA[United States]]></country>
+    </billTo>
+  </transactionRequest>
+</createTransactionRequest>
+
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [_sendRequest] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/util/HttpClient.php : 89) - Sending 'XML' Request type
+ Sat, 19 Jan 2019 00:55:45 +0000 INFO : [_sendRequest] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/util/HttpClient.php : 94) - Sending http request via Curl
+ Sat, 19 Jan 2019 00:55:47 +0000 INFO : [_sendRequest] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/util/HttpClient.php : 96) - Response from AnetApi: ﻿<?xml version="1.0" encoding="utf-8"?><createTransactionResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd"><refId>ref1547859345</refId><messages><resultCode>Ok</resultCode><message><code>I00001</code><text>Successful.</text></message></messages><transactionResponse><responseCode>1</responseCode><authCode>002189</authCode><avsResultCode>Y</avsResultCode><cvvResultCode>M</cvvResultCode><cavvResultCode /><transId>61511928518</transId><refTransID /><transHash>9C32325A5E262C01299F2DC0C450AC62</transHash><testRequest>0</testRequest><accountNumber>XXXX0514</accountNumber><accountType>Visa</accountType><messages><message><code>1</code><description>This transaction has been approved.</description></message></messages><transHashSha2 /></transactionResponse></createTransactionResponse>
+ Sat, 19 Jan 2019 00:55:47 +0000 INFO : [execute] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/api/controller/base/ApiOperationBase.php : 128) - Response De-Serialization Begin
+ Sat, 19 Jan 2019 00:55:47 +0000 INFO : [execute] (/Users/yoany/code/pay-through-invoice/vendor/authorizenet/authorizenet/lib/net/authorize/api/controller/base/ApiOperationBase.php : 130) - Response De-Serialization End
